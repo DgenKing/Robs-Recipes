@@ -1,0 +1,34 @@
+/* This targets the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* This targets the recipe container */
+article {
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto; /* This centers the card on the screen */
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* This rounds the corners slightly */
+}
+
+/* Styling the headings */
+h2 {
+    color: #d35400; /* A nice spicy orange color */
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+/* Adding space between list items so they aren't cramped */
+li {
+    margin-bottom: 10px;
+}
